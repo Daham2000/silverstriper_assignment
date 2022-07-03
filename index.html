@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Silverstripers Assigment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="import" href='components/nav_bar_component.js'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<section>
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+            <img src="assets/1.jpg" class="imageS">
+        </div>
+
+        <div class="mySlides">
+            <img src="assets/2.jpg" class="imageS">
+        </div>
+
+        <div class="mySlides">
+            <img src="assets/3.jpg" class="imageS">
+        </div>
+
+        <div class="mySlides">
+            <img src="assets/4.jpg" class="imageS">
+        </div>
+
+        <div class="mySlides">
+            <img src="assets/5.jpg" class="imageS">
+        </div>
+
+        <div style="text-align:center" class="dotSection">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+    <nav-bar-compo></nav-bar-compo>
+</section>
+<script src="components/slider_image.js"></script>
+<script src="components/nav_bar_component.js"></script>
+</body>
+</html>
