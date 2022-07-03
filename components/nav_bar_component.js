@@ -3,6 +3,9 @@ template.innerHTML = `
   <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
     @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+* {
+    text-decoration: none;
+}
 
 body {
     font-family: montserrat;
