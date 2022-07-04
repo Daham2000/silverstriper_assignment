@@ -145,13 +145,8 @@ a.active, a:hover {
 class NavBarComponent extends HTMLElement {
     constructor() {
         super();
-
-        this.showInfo = true;
-
         this.attachShadow({mode: 'open'});
         this.shadowRoot.appendChild(template.content.cloneNode(true));
-        this.shadowRoot.querySelector('h3').innerText = this.getAttribute('name');
-        this.shadowRoot.querySelector('img').src = this.getAttribute('avatar');
     }
 }
 
