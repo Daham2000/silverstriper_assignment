@@ -4,7 +4,7 @@ template1.innerHTML = `
     <style>
 #textInSlider{
     position: absolute;
-    bottom: -30%;
+    bottom: 30%;
     left: 15%;
 }
 

@@ -4,8 +4,6 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
 }
 
 body {
@@ -14,15 +12,9 @@ body {
     background-color: black;
 }
 
-section{
-    position: relative;
-}
-
 .slideshow-container {
-    position: absolute;
     max-width: 100%;
     height: 95vh;
-    top: 70%;
     max-height: 55vh;
     padding: 0;
     margin: 0;
@@ -30,7 +22,7 @@ section{
 
 .dotSection {
     position: absolute;
-    bottom: -68%;
+    bottom: 10%;
     left: 47%;
 }
 
@@ -59,38 +51,4 @@ section{
 .imageS {
     width: 100vw;
     height: 95vh;
-}
-
-/*slider text decorations*/
-#textInSlider{
-    position: absolute;
-    bottom: -30%;
-    left: 15%;
-}
-
-#textOne{
-    color: white;
-    width: 501px;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: Arial;
-    margin-bottom: 10px;
-}
-
-#textTwo{
-    width: 659px;
-    color: white;
-    font-size: 11px;
-    font-weight: lighter;
-    font-family: sans-serif;
-}
-
-.sliderBts{
-    margin-right: 2px;
-    margin-top: 15px;
-    border-radius: 100px;
-    padding: 5px 13px;
-    background-color: #0093FF;
-    color: white;
-    border-color: transparent;
 }

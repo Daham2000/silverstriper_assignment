@@ -7,12 +7,9 @@ template.innerHTML = `
     text-decoration: none;
 }
 
-body {
-    font-family: montserrat;
-}
-
 nav {
     position: absolute;
+    top: 0;
     background: #0093FF;
     height: 80px;
     width: 100%;
