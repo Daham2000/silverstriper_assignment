@@ -4,11 +4,13 @@ features_section.innerHTML = `
 <style>
 #featuresBoxSection{
     position: relative;
-    top: 49vh;
+    top: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    background-color: black;
 }
 
 .featuresBox{

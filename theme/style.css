@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+@font-face {
+    font-family: urbaneRounded;
+    src: url("../assets/UrbaneRounded-Light.ttf");
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +14,6 @@
 body {
     font-family: montserrat;
     overflow-x: hidden;
-    background-color: black;
 }
 
 .slideshow-container {
@@ -18,6 +22,7 @@ body {
     max-height: 55vh;
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
 .dotSection {
@@ -41,7 +46,6 @@ body {
     background-color: #0093FF;
 }
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .prev, .next, .text {
         font-size: 11px
@@ -51,4 +55,80 @@ body {
 .imageS {
     width: 100vw;
     height: 95vh;
+}
+
+#tablePowerful {
+    position: relative;
+    top: 40vh;
+    width: 100vw;
+    padding: 25px 17% 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.powerfulTopic {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+    padding-bottom: 10px;
+}
+
+#tableSection {
+    border-radius: 15px !important;
+}
+
+.headerOne {
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 10px !important;
+    font-family: Arial, serif;
+    background: #0093FF !important;
+}
+
+.headerTwo {
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 10px !important;
+    font-family: Arial, serif;
+    background-color: #0080DE !important;
+}
+
+.table-curved {
+    border-radius: 10px;
+}
+
+.bdr {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.rowOne{
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px !important;
+    font-family: Inter, serif;
+    background: #EDEDED !important;
+}
+
+.rowTwo{
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px !important;
+    font-family: Inter, serif;
+    background-color: #dcdcdc !important;
+}
+
+.rowThere{
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px !important;
+    font-family: Inter, serif;
+    background: white !important;
 }
