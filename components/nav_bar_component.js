@@ -3,13 +3,13 @@ template.innerHTML = `
   <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
     @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
-
-body {
-    font-family: montserrat;
+* {
+    text-decoration: none;
 }
 
 nav {
     position: absolute;
+    top: 0;
     background: #0093FF;
     height: 80px;
     width: 100%;
@@ -142,13 +142,8 @@ a.active, a:hover {
 class NavBarComponent extends HTMLElement {
     constructor() {
         super();
-
-        this.showInfo = true;
-
         this.attachShadow({mode: 'open'});
         this.shadowRoot.appendChild(template.content.cloneNode(true));
-        this.shadowRoot.querySelector('h3').innerText = this.getAttribute('name');
-        this.shadowRoot.querySelector('img').src = this.getAttribute('avatar');
     }
 }
 

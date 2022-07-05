@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <title>Silverstripers Assigment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="import" href='components/nav_bar_component.js'>
+    <link rel="stylesheet" href="theme/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-<section>
+<section id="sliderSection">
     <div class="slideshow-container">
 
         <div class="mySlides">
@@ -32,6 +33,8 @@
             <img src="assets/5.jpg" class="imageS">
         </div>
 
+        <slider-text></slider-text>
+
         <div style="text-align:center" class="dotSection">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
@@ -42,7 +45,18 @@
     </div>
     <nav-bar-compo></nav-bar-compo>
 </section>
-<script src="components/slider_image.js"></script>
+
+<features-section></features-section>
+<powerful-text-section></powerful-text-section>
+<powerful-table></powerful-table>
+<footer-component></footer-component>
+
 <script src="components/nav_bar_component.js"></script>
+<script src="components/slider_text.js"></script>
+<script src="components/features_section.js"></script>
+<script src="components/powerful-text-section.js"></script>
+<script src="components/table_powerful.js"></script>
+<script src="components/footer_component.js"></script>
+<script src="controllers/slider_image.js"></script>
 </body>
 </html>
