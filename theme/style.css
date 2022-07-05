@@ -57,78 +57,82 @@ body {
     height: 95vh;
 }
 
-#tablePowerful {
+#footerSection{
     position: relative;
-    top: 40vh;
-    width: 100vw;
-    padding: 25px 17% 40px;
+    margin-bottom: 10px;
+    height: 38vh;
+    top: 25vh;
+    background-color: #0093FF;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-top: 55px;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    align-items: center;
 }
 
-.powerfulTopic {
-    font-size: 25px;
-    font-weight: bold;
+#bottomFooterLabel{
+    position: relative;
+    height: 35px;
+    width: 100%;
+    top: 15%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: start;
     color: white;
-    font-family: Arial;
+    font-family: urbaneRounded, serif;
+    font-size: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
     padding-bottom: 10px;
 }
 
-#tableSection {
-    border-radius: 15px !important;
+.footerInside{
+    display: flex;
+    width: 70%;
+    position: relative;
+    left: -4%;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.headerOne {
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    margin-top: 35px;
+    height: 25vh;
+}
+
+#blah {
+    margin-left: 100px;
+    width: 53.84px;
+    height: 43.56px;
+}
+
+.footerTopic{
     color: white;
     font-size: 13px;
-    font-weight: normal;
-    padding: 10px !important;
-    font-family: Arial, serif;
-    background: #0093FF !important;
+    font-family: urbaneRounded, serif;
+    font-weight: bold;
+    margin-bottom: 13px;
 }
 
-.headerTwo {
+.footerContentSmall{
     color: white;
-    font-size: 13px;
-    font-weight: normal;
-    padding: 10px !important;
+    font-size: 12px;
     font-family: Arial, serif;
-    background-color: #0080DE !important;
-}
-
-.table-curved {
-    border-radius: 10px;
-}
-
-.bdr {
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.rowOne{
-    color: black;
-    font-size: 12px;
     font-weight: normal;
-    padding: 10px !important;
-    font-family: Inter, serif;
-    background: #EDEDED !important;
+    padding-left: 7px;
 }
 
-.rowTwo{
-    color: black;
-    font-size: 12px;
-    font-weight: normal;
-    padding: 10px !important;
-    font-family: Inter, serif;
-    background-color: #dcdcdc !important;
-}
-
-.rowThere{
-    color: black;
-    font-size: 12px;
-    font-weight: normal;
-    padding: 10px !important;
-    font-family: Inter, serif;
-    background: white !important;
+.contactSec{
+    margin-bottom: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

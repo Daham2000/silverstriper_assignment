@@ -6,7 +6,7 @@ templatePowerFulTable.innerHTML = `
     position: relative;
     top: 40vh;
     width: 100vw;
-    padding: 25px 17% 40px;
+    padding: 25px 17% 100px;
     display: flex;
     flex-direction: column;
     background-color: black;
